@@ -1,54 +1,23 @@
-# Common Ground Horticulture website
+COMMON GROUND HORTICULTURE WEBSITE
 
-This folder contains a mobile-friendly single-page website for:
+Files to upload to GitHub:
+- index.html
+- styles.css
+- assets/common-ground-logo.png
+- assets/melissa-bell.jpg
 
-https://commongroundhorticulture.com.au
+HOW TO REPLACE YOUR CURRENT FILES
+1. Open your GitHub repository.
+2. Delete the old index.html and styles.css if they are incorrect.
+3. Click Add file > Upload files.
+4. Upload everything inside this folder, including the assets folder.
+5. Click Commit changes.
+6. Wait 1–3 minutes and refresh your website.
 
-## Before publishing
+IMPORTANT
+Keep the file names exactly as supplied.
+The assets folder must also be uploaded.
 
-Open `index.html` and replace:
-
-- `0400000000`
-- `0400 000 000`
-- `hello@commongroundhorticulture.com.au`
-
-with Melissa's real contact details.
-
-You can also replace the two Unsplash image URLs in `styles.css` with your own photos later.
-
-## Free publishing option: GitHub Pages
-
-1. Create a GitHub account.
-2. Create a new public repository named `commongroundhorticulture`.
-3. Upload `index.html` and `styles.css`.
-4. In the repository, open **Settings > Pages**.
-5. Under **Build and deployment**, select:
-   - Source: Deploy from a branch
-   - Branch: main
-   - Folder: /root
-6. Save and wait for the GitHub Pages address to appear.
-7. Add a file named `CNAME` containing:
-   commongroundhorticulture.com.au
-8. In Cloudflare DNS, point the domain to GitHub Pages.
-
-## Cloudflare DNS for GitHub Pages
-
-For the root domain, add these four A records:
-
-- 185.199.108.153
-- 185.199.109.153
-- 185.199.110.153
-- 185.199.111.153
-
-Add a CNAME record:
-
-- Name: www
-- Target: YOUR-GITHUB-USERNAME.github.io
-
-Use DNS only initially if GitHub has trouble verifying the domain. After the custom domain is working, Cloudflare proxy can usually be turned back on.
-
-## QR code
-
-Point the QR code to:
-
-https://commongroundhorticulture.com.au
+Your website contact details:
+Phone: 0417 545 058
+Email: commongroundhort@gmail.com
